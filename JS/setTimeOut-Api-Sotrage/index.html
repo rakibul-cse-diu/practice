@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="products m-auto w-50 p-5">
+        <h2>localStorage and seasionStores practice</h2>
+
+        <label for="productName" class="fs-5">Product Name</label>
+        <input type="text" id="productName" class="form-control w-50" placeholder="Polo t-shirt">
+        <label for="productPrice" class="fs-5">Product Price</label>
+        <input type="text" id="productPrice" class="form-control w-50" placeholder="$100">
+        <button class="btn btn-success mt-2 mb-5 save-btn" onclick="saveProduct()">Save Product</button>
+    </div>
+    <div class="list m-auto p-5 w-50">
+        <ul id="product-list">
+
+        </ul>
+    </div>
+
+    <script src=" main.js"></script>
+</body>
+
+</html>
